@@ -1,0 +1,277 @@
+#courses {
+    padding: 150px 0px;
+    background-image: url(../image/course-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    .container {
+        z-index: 16;
+        position: relative;
+        .row {
+            .section-title {
+                text-align: center;
+                img {
+                    margin-bottom: 10px;
+                }
+                h2 {
+                    font-size: 34px;
+                    color: white;
+                    font-weight: 700;
+                    font-family: $font-family;
+                    margin-bottom: 62px;
+                    text-transform: uppercase;
+                }
+            }
+            .custom-card-items {
+                display: flex;
+                .card {
+                    margin-right: 35px;
+                    height: 100%;
+                    .media-5 {
+                        position: relative;
+                        transition: all 0.3s linear;
+                        &:hover .course-hover {
+                            opacity: 1;
+                        }
+                        &:hover .overlay {
+                            opacity: 1;
+                        }
+                        img {
+                            max-width: 100%;
+                        }
+                        .course-hover {
+                            position: absolute;
+                            transition: all 0.3s linear;
+                            z-index: 1;
+                            opacity: 0;
+                            top: left;
+                            top: 125.1px;
+                            left: 189.495px;
+                            i {
+                                color: #fff;
+                                font-size: 20px;
+                                transition: all 0.5s ease 0s;
+                            }
+                        }
+                        .overlay {
+                            position: absolute;
+                            opacity: 0;
+                            background: #ec1c2387;
+                            transition: all 0.3s linear;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .card-body {
+                        padding: 38px;
+                        h3 {
+                            font-size: 22px;
+                            color: $third-color;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-family: $font-family;
+                            margin-bottom: 10px;
+                            transition: all 0.3s ease-in-out;
+                            &:hover {
+                                color: $primary-color;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: inherit;
+                            }
+                        }
+                        p {
+                            font-size: 14px;
+                            color: #606060;
+                            font-family: $font-family;
+                            margin-bottom: 20px;
+                            width: 100%;
+                            line-height: 23px;
+                        }
+                    }
+                    .btn {
+                        border-radius: unset;
+                        padding: 9px 16px;
+                        background: $primary-color;
+                        font-family: $font-family;
+                        border: none;
+                        font-weight: 700;
+                        transition: all 0.3s ease-in-out;
+                        &:hover {
+                            background: $secondary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(44, 43, 94, 0.92);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #courses {
+        .container {
+            .row {
+                .section-title {
+                    img {}
+                    h2 {}
+                }
+                .custom-card-items {
+                    .card {
+                        .media-5 {
+                            &:hover .course-hover {}
+                            &:hover .overlay {}
+                            img {}
+                            .course-hover {
+                                i {}
+                            }
+                            .overlay {}
+                        }
+                        .card-body {
+                            h3 {
+                                &:hover {}
+                                a {}
+                            }
+                            p {}
+                        }
+                        .btn {
+                            &:hover {}
+                        }
+                    }
+                }
+            }
+        }
+        .overlay {}
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #courses {
+        .hidden-md {
+            display: none;
+        }
+        .container {
+            .row {
+                .section-title {
+                    img {}
+                    h2 {}
+                }
+                .custom-card-items {
+                    .card {
+                        .media-5 {
+                            &:hover .course-hover {}
+                            &:hover .overlay {}
+                            img {}
+                            .course-hover {
+                                i {}
+                            }
+                            .overlay {}
+                        }
+                        .card-body {
+                            h3 {
+                                &:hover {}
+                                a {}
+                            }
+                            p {}
+                        }
+                        .btn {
+                            &:hover {}
+                        }
+                    }
+                }
+            }
+        }
+        .overlay {}
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #courses {
+        .hidden-md {
+            display: block;
+        }
+        .container {
+            .row {
+                .section-title {
+                    img {}
+                    h2 {}
+                }
+                .custom-card-items {
+                    display: block;
+                    .card {
+                        margin-right: unset;
+                        margin-bottom: 24px;
+                        .media-5 {
+                            &:hover .course-hover {}
+                            &:hover .overlay {}
+                            img {}
+                            .course-hover {
+                                i {}
+                            }
+                            .overlay {}
+                        }
+                        .card-body {
+                            h3 {
+                                &:hover {}
+                                a {}
+                            }
+                            p {}
+                        }
+                        .btn {
+                            &:hover {}
+                        }
+                    }
+                }
+            }
+        }
+        .overlay {}
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #courses {
+        .container {
+            .row {
+                .section-title {
+                    img {}
+                    h2 {}
+                }
+                .custom-card-items {
+                    .card {
+                        .media-5 {
+                            &:hover .course-hover {}
+                            &:hover .overlay {}
+                            img {}
+                            .course-hover {
+                                i {}
+                            }
+                            .overlay {}
+                        }
+                        .card-body {
+                            h3 {
+                                &:hover {}
+                                a {}
+                            }
+                            p {}
+                        }
+                        .btn {
+                            &:hover {}
+                        }
+                    }
+                }
+            }
+        }
+        .overlay {}
+    }
+}

@@ -1,0 +1,241 @@
+#Teacher {
+    padding-bottom: 150px;
+    .teacher-media {
+        text-align: center;
+        img {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 34px;
+            color: $secondary-color;
+            font-weight: 700;
+            font-family: $font-family;
+            margin-bottom: 62px;
+            text-transform: uppercase;
+            margin-bottom: 55px;
+        }
+    }
+    .single {
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+        position: relative;
+        &:hover .single-teacher-content {
+            bottom: 0;
+        }
+        &:hover .single-teacher a::after {
+            opacity: 1;
+        }
+        .single-teacher {
+            padding-bottom: 75px;
+            a {
+                &::after {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    content: "";
+                    height: 100%;
+                    content: "";
+                    background: rgba(231, 231, 231, 0.84);
+                    opacity: 0;
+                    transition: all 0.5s ease 0s;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .single-teacher-content {
+            transition: all 0.3s linear;
+            text-align: center;
+            padding: 16px 0px;
+            position: absolute;
+            bottom: -60px;
+            width: 100%;
+            background: white;
+            h2 {
+                color: $third-color;
+                font-family: $font-family;
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 3px;
+                text-transform: uppercase;
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+            }
+            h4 {
+                color: #929292;
+                padding-top: 8px;
+                font-size: 14px;
+                font-weight: 600;
+                font-family: $font-family;
+                text-transform: capitalize;
+                margin-bottom: 20px;
+            }
+            ul {
+                display: flex;
+                justify-content: center;
+                transition: all 0.3s linear;
+                transform: scaleY(45deg);
+                li {
+                    margin-right: 5px;
+                    a {
+                        display: inline-block;
+                        font-size: 15px;
+                        color: #2c2b5e;
+                        background: #F6F6F6;
+                        height: 40px;
+                        width: 38px;
+                        text-align: center;
+                        line-height: 40px;
+                        transition: all 0.3s linear;
+                        &:hover {
+                            background-color: $primary-color;
+                            color: #fff;
+                        }
+                        i {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #Teacher {
+        .teacher-media {
+            img {}
+            h2 {}
+        }
+        .single {
+            &:hover .single-teacher-content {}
+            &:hover .single-teacher a::after {}
+            .single-teacher {
+                a {
+                    &::after {}
+                    img {}
+                }
+            }
+            .single-teacher-content {
+                h2 {
+                    a {}
+                }
+                h4 {}
+                ul {
+                    li {
+                        a {
+                            &:hover {}
+                            i {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #Teacher {
+        .hidden-md {
+            display: none;
+        }
+        .teacher-media {
+            img {}
+            h2 {}
+        }
+        .single {
+            &:hover .single-teacher-content {}
+            &:hover .single-teacher a::after {}
+            .single-teacher {
+                a {
+                    &::after {}
+                    img {}
+                }
+            }
+            .single-teacher-content {
+                h2 {
+                    a {}
+                }
+                h4 {}
+                ul {
+                    li {
+                        a {
+                            &:hover {}
+                            i {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #Teacher {
+        .teacher-media {
+            img {}
+            h2 {}
+        }
+        .single {
+            margin-bottom: 47px;
+            &:hover .single-teacher-content {}
+            &:hover .single-teacher a::after {}
+            .single-teacher {
+                a {
+                    &::after {}
+                    img {}
+                }
+            }
+            .single-teacher-content {
+                h2 {
+                    a {}
+                }
+                h4 {}
+                ul {
+                    li {
+                        a {
+                            &:hover {}
+                            i {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #Teacher {
+        .teacher-media {
+            img {}
+            h2 {}
+        }
+        .single {
+            &:hover .single-teacher-content {}
+            &:hover .single-teacher a::after {}
+            .single-teacher {
+                a {
+                    &::after {}
+                    img {}
+                }
+            }
+            .single-teacher-content {
+                h2 {
+                    a {}
+                }
+                h4 {}
+                ul {
+                    li {
+                        a {
+                            &:hover {}
+                            i {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

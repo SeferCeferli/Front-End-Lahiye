@@ -1,0 +1,165 @@
+#contact {
+    padding: 150px 0px;
+    .container {
+        .row {
+            .contact-contents {
+                box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.13);
+                padding: 55px 0;
+                margin-right: 65px;
+                .single-content {
+                    .contact-icon {
+                        border: 1px solid #e3e3e3;
+                        border-radius: 50%;
+                        height: 50px;
+                        margin: auto auto 20px;
+                        position: relative;
+                        text-align: center;
+                        line-height: 64px;
+                        width: 50px;
+                        img {}
+                    }
+                    .contact-add {
+                        margin-bottom: 65px;
+                        text-align: center;
+                        h3 {
+                            font-size: 18px;
+                            color: $third-color;
+                            font-weight: 600;
+                            font-family: $font-family;
+                            text-transform: capitalize;
+                            margin-bottom: 8px;
+                        }
+                        p {
+                            font-size: 16px;
+                            color: $text-color;
+                            font-family: $font-family;
+                            margin-bottom: 9px;
+                        }
+                    }
+                }
+            }
+            .reply-area {
+                textarea {
+                    width: 100%;
+                }
+                h3 {
+                    font-size: 20px;
+                    color: $third-color;
+                    text-transform: uppercase;
+                    font-family: $font-family;
+                    margin-bottom: 15px;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: 14px;
+                    font-family: $font-family;
+                    color: $text-color;
+                    font-weight: 400;
+                    margin-bottom: 26px;
+                    line-height: 24px;
+                }
+                form {
+                    .mb-3 {
+                        margin-bottom: 20px !important;
+                    }
+                    textarea {
+                        border-color: #c0bebe;
+                    }
+                    input {
+                        border-radius: unset;
+                    }
+                    button {
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        margin-bottom: 27px;
+                        font-family: $font-family;
+                        background: $secondary-color;
+                        border: none;
+                        font-size: 14px;
+                        padding: 8px 28px;
+                        border-radius: unset;
+                    }
+                    label {
+                        font-size: 14px;
+                        color: #030303;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                        line-height: 24px;
+                        font-family: $font-family;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #contact {
+        padding: 150px 0px;
+        .container {
+            .row {
+                .contact-contents {
+                    margin-right: unset;
+                    .single-content {
+                        .contact-icon {
+                            img {}
+                        }
+                        .contact-add {
+                            h3 {}
+                            p {}
+                        }
+                    }
+                }
+                .reply-area {
+                    h3 {}
+                    p {}
+                    form {
+                        .mb-3 {}
+                        textarea {}
+                        input {}
+                        button {}
+                        label {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #contact {
+        padding: 150px 0px;
+        .container {
+            .row {
+                .contact-contents {
+                    margin-right: unset;
+                    .single-content {
+                        .contact-icon {
+                            img {}
+                        }
+                        .contact-add {
+                            h3 {}
+                            p {}
+                        }
+                    }
+                }
+                .reply-area {
+                    margin-top: 65px;
+                    h3 {}
+                    p {}
+                    form {
+                        .mb-3 {}
+                        textarea {}
+                        input {}
+                        button {}
+                        label {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}

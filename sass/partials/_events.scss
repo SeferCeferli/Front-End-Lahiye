@@ -1,0 +1,287 @@
+#events {
+    padding-bottom: 100px;
+    .container {
+        .row {
+            .event-media {
+                text-align: center;
+                img {
+                    max-width: 100%;
+                    margin-bottom: 8px;
+                }
+                h2 {
+                    font-size: 34px;
+                    color: #2c2b5e;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                    margin-bottom: 62px;
+                    text-transform: uppercase;
+                }
+            }
+            .card {
+                box-shadow: 0px 0px 6px 0px #0000002b;
+                margin-bottom: 25px !important;
+                img {
+                    max-width: 100%;
+                }
+                .card-body {
+                    h3 {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: $secondary-color;
+                        font-family: $font-family;
+                        margin-bottom: 5px;
+                    }
+                    h4 {
+                        margin-bottom: 5px;
+                        transition: all 0.5s linear;
+                        font-weight: 700;
+                        margin: 13px 0px;
+                        a {
+                            font-size: 18px;
+                            font-weight: 700;
+                            color: $text-color;
+                            font-family: $font-family;
+                            text-transform: uppercase;
+                            transition: all 0.3s linear;
+                            text-decoration: none;
+                            &:hover {
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                    ul {
+                        display: flex;
+                        color: $text-color;
+                        margin: 10px 0px;
+                        li {
+                            margin-right: 14px;
+                            i {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    .event-right {
+                        padding: 6px 0px;
+                        a {
+                            text-decoration: none;
+                            display: inline-block;
+                            color: inherit;
+                            padding: 8px 15px;
+                            border: 1px solid #E1E1E1;
+                            transition: all 0.3s linear;
+                            &:hover {
+                                background: $primary-color;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    #events {
+        .container {
+            .row {
+                .offset-2 {
+                    margin-left: unset;
+                }
+                .event-media {
+                    img {}
+                    h2 {}
+                }
+                .card {
+                    img {}
+                    .card-body {
+                        // padding: 25px 0 28px;
+                        h3 {}
+                        h4 {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                        ul {
+                            li {
+                                i {}
+                            }
+                        }
+                        .event-right {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #events {
+        .container {
+            .row {
+                .offset-2 {
+                    margin-left: unset;
+                }
+                .event-media {
+                    img {}
+                    h2 {}
+                }
+                .card {
+                    img {
+                        height: 100%;
+                    }
+                    .card-body {
+                        // padding: 25px 0 28px;
+                        h3 {}
+                        h4 {
+                            a {
+                                font-size: 13px;
+                                &:hover {}
+                            }
+                        }
+                        ul {
+                            li {
+                                font-size: 13px;
+                                i {}
+                            }
+                        }
+                        .event-right {
+                            a {
+                                &:hover {
+                                    background: $primary-color;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #events {
+        .container {
+            .row {
+                .hidden-md {
+                    display: none;
+                }
+                .offset-2 {
+                    margin-left: 16.6666666667%;
+                }
+                .event-media {
+                    img {}
+                    h2 {}
+                }
+                .card {
+                    img {}
+                    .card-body {
+                        h3 {}
+                        h4 {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                        ul {
+                            li {
+                                i {}
+                            }
+                        }
+                        .event-right {
+                            a {
+                                &:hover {
+                                    background: $primary-color;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #events {
+        .container {
+            .row {
+                .offset-2 {
+                    margin-left: unset;
+                }
+                .event-media {
+                    img {}
+                    h2 {}
+                }
+                .card {
+                    img {
+                        width: 100%;
+                    }
+                    .card-body {
+                        h3 {}
+                        h4 {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                        ul {
+                            li {
+                                i {}
+                            }
+                        }
+                        .event-right {
+                            a {
+                                &:hover {
+                                    background: $primary-color;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #events {
+        .container {
+            .row {
+                .event-media {
+                    img {}
+                    h2 {}
+                }
+                .card {
+                    img {}
+                    .card-body {
+                        h3 {}
+                        h4 {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                        ul {
+                            li {
+                                i {}
+                            }
+                        }
+                        .event-right {
+                            a {
+                                &:hover {
+                                    background: $primary-color;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

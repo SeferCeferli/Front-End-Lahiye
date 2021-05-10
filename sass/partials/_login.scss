@@ -1,0 +1,212 @@
+#Login {
+    padding: 150px 0px;
+    .container {
+        .row {
+            .login {
+                text-align: center;
+                .login-form-container {
+                    padding: 37px 40px;
+                    overflow: hidden;
+                    background: #f5f5f5 none repeat scroll 0 0;
+                    .login-text {
+                        h2 {
+                            font-weight: 600;
+                            color: #444;
+                            font-size: 30px;
+                            margin-bottom: 16px;
+                            text-transform: capitalize;
+                        }
+                        span {
+                            font-size: 15px;
+                            color: #606060;
+                            font-family: $font-family;
+                            margin-bottom: 38px;
+                            display: inline-block;
+                        }
+                    }
+                    .login-form {
+                        form {
+                            position: relative;
+                            .qeydiyyat {
+                                background: #ffffff none repeat scroll 0 0;
+                                border-radius: 3px;
+                                color: #666666;
+                                margin-bottom: 20px;
+                                font-size: 15px;
+                                height: 40px;
+                                padding-left: 10px;
+                                font-family: $font-family;
+                                width: 100%;
+                                border: medium none rgba(0, 0, 0, 0);
+                                box-shadow: none;
+                            }
+                            .button-box {
+                                .login-toggle-btn {
+                                    .check {
+                                        label {
+                                            position: absolute;
+                                            left: 21px;
+                                        }
+                                        input {
+                                            position: absolute;
+                                            left: 0;
+                                            width: 17px;
+                                            height: 15px;
+                                        }
+                                    }
+                                    a {
+                                        position: absolute;
+                                        right: 0;
+                                        color: $primary-color;
+                                    }
+                                }
+                                button {
+                                    background: transparent none repeat scroll 0 0;
+                                    border: 1px solid $primary-color;
+                                    border-radius: 30px;
+                                    color: $primary-color;
+                                    font-size: 14px;
+                                    margin-top: 57px;
+                                    margin-right: 500px;
+                                    padding: 8px 36px;
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #Login {
+        .container {
+            .row {
+                .login {
+                    .login-form-container {
+                        .login-text {
+                            h2 {}
+                            span {}
+                        }
+                        .login-form {
+                            form {
+                                .qeydiyyat {}
+                                .button-box {
+                                    .login-toggle-btn {
+                                        .check {
+                                            label {}
+                                            input {}
+                                        }
+                                        a {}
+                                    }
+                                    button {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #Login {
+        .container {
+            .row {
+                .offset-3 {
+                    margin-left: unset;
+                }
+                .login {
+                    .login-form-container {
+                        .login-text {
+                            h2 {}
+                            span {}
+                        }
+                        .login-form {
+                            form {
+                                .qeydiyyat {}
+                                .button-box {
+                                    .login-toggle-btn {
+                                        .check {
+                                            label {}
+                                            input {}
+                                        }
+                                        a {}
+                                    }
+                                    button {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #Login {
+        .container {
+            .row {
+                .login {
+                    .login-form-container {
+                        .login-text {
+                            h2 {}
+                            span {}
+                        }
+                        .login-form {
+                            form {
+                                .qeydiyyat {}
+                                .button-box {
+                                    .login-toggle-btn {
+                                        .check {
+                                            label {}
+                                            input {}
+                                        }
+                                        a {}
+                                    }
+                                    button {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #Login {
+        .container {
+            .row {
+                .login {
+                    .login-form-container {
+                        .login-text {
+                            h2 {}
+                            span {}
+                        }
+                        .login-form {
+                            form {
+                                .qeydiyyat {}
+                                .button-box {
+                                    .login-toggle-btn {
+                                        .check {
+                                            label {}
+                                            input {}
+                                        }
+                                        a {}
+                                    }
+                                    button {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

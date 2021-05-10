@@ -1,0 +1,726 @@
+#courses-details {
+    margin-top: 132px;
+    .left {
+        margin-bottom: 76px;
+    }
+    .courses-media {
+        img {
+            max-width: 100%;
+        }
+    }
+    .courses-content {
+        padding-top: 35px;
+        overflow: hidden;
+        h2 {
+            font-size: 28px;
+            color: $third-color;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            font-family: $font-family;
+        }
+        p {
+            font-size: 14px;
+            color: $text-color;
+            margin-bottom: 35px;
+            font-family: $font-family;
+            line-height: 24px;
+        }
+    }
+    .details-left {
+        .single-details {
+            h3 {
+                font-weight: 700;
+                text-transform: uppercase;
+                font-family: $font-family;
+                font-size: 20px;
+                color: $third-color;
+                margin-bottom: 14px;
+            }
+            p {
+                font-size: 14px;
+                color: $text-color;
+                margin-bottom: 35px;
+                font-family: $font-family;
+                line-height: 24px;
+            }
+        }
+    }
+    .details-right {
+        padding: 45px 35px 45px;
+        border: 1px solid #E1E1E1;
+        margin: 0px 30px;
+        h3 {
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: $font-family;
+            font-size: 20px;
+            color: $third-color;
+            margin-bottom: 50px;
+        }
+        ul {
+            li {
+                display: block;
+                font-size: 14px;
+                color: $third-color;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-family: $font-family;
+                margin-bottom: 15px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #EBEBEB;
+                &:last-child {
+                    border-bottom: none;
+                }
+                span {
+                    float: right;
+                }
+            }
+        }
+        .fee {
+            color: #EC1C23;
+            margin-bottom: 0;
+        }
+    }
+    .reply-area {
+        textarea {
+            width: 100%;
+        }
+        h3 {
+            font-size: 20px;
+            color: $third-color;
+            text-transform: uppercase;
+            font-family: $font-family;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 14px;
+            font-family: $font-family;
+            color: $text-color;
+            font-weight: 400;
+            margin-bottom: 26px;
+            line-height: 24px;
+        }
+        form {
+            .mb-3 {
+                margin-bottom: 20px !important;
+            }
+            textarea {
+                border-color: #c0bebe;
+            }
+            input {
+                border-radius: unset;
+            }
+            button {
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-bottom: 27px;
+                font-family: $font-family;
+                background: $secondary-color;
+                border: none;
+                font-size: 14px;
+                padding: 8px 28px;
+                border-radius: unset;
+            }
+            label {
+                font-size: 14px;
+                color: #030303;
+                font-weight: 600;
+                margin-bottom: 10px;
+                line-height: 24px;
+                font-family: $font-family;
+            }
+        }
+    }
+    .blog-sidebar {
+        margin-left: 70px;
+        .single-blog-widget {
+            margin-bottom: 50px;
+            h3 {
+                font-size: 20px;
+                color: $third-color;
+                font-weight: 600;
+                font-family: $font-family;
+                text-transform: uppercase;
+                margin-bottom: 35px;
+                line-height: 26px;
+            }
+            .blog-search {
+                .input-group {
+                    width: 300px;
+                    input {
+                        border-radius: unset;
+                    }
+                    button {
+                        border-radius: unset;
+                        transition: all 0.3s linear;
+                        &:hover {
+                            background-color: $primary-color !important;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            ul {
+                li {
+                    display: block;
+                    padding-bottom: 27px;
+                    a {
+                        font-size: 14px;
+                        font-family: $font-family;
+                        font-weight: 600;
+                        color: $text-color;
+                        text-decoration: none;
+                        transition: all 0.3s linear;
+                        &:hover {
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+            .single-blog-banner {
+                position: relative;
+                .overlay {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    background: #0303038a;
+                }
+                a {
+                    position: relative;
+                    display: block;
+                    img {}
+                }
+                h2 {
+                    position: absolute;
+                    left: 20px;
+                    bottom: 25px;
+                    font-size: 30px;
+                    font-weight: 700;
+                    font-family: $font-family;
+                    text-transform: uppercase;
+                    color: #fefefe;
+                    z-index: 9;
+                    line-height: 35px;
+                }
+            }
+            .single-post {
+                h3 {}
+                .card {
+                    border: none;
+                    img {}
+                    .card-body {
+                        padding: 10px 0px;
+                        h4 {
+                            color: $third-color;
+                            font-size: 16px;
+                            font-weight: 600;
+                            font-family: $font-family;
+                            margin-bottom: 18px;
+                            margin-top: 5px;
+                            a {
+                                text-decoration: none;
+                                color: inherit;
+                                transition: all 0.3s linear;
+                                &:hover {
+                                    color: $primary-color;
+                                }
+                            }
+                        }
+                        p {
+                            color: $text-color;
+                            font-size: 12px;
+                            font-family: $font-family;
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+            .single-tag {
+                a {
+                    float: left;
+                    text-transform: capitalize;
+                    border: 1px solid #E1E1E1;
+                    padding: 8px 14px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    font-family: $font-family;
+                    display: block;
+                    color: $text-color;
+                    transition: all 0.5s ease 0s;
+                    text-decoration: none;
+                    margin-bottom: 10px;
+                    margin-right: 8px;
+                    &:hover {
+                        background: $secondary-color;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #courses-details {
+        .container {
+            .left {}
+            .courses-media {
+                img {}
+            }
+            .courses-content {
+                h2 {}
+                p {}
+            }
+            .details-left {
+                .single-details {
+                    h3 {}
+                    p {}
+                }
+            }
+            .details-right {
+                h3 {}
+                ul {
+                    li {
+                        &:last-child {}
+                        span {}
+                    }
+                }
+                .fee {}
+            }
+            .reply-area {
+                textarea {}
+                h3 {}
+                p {}
+                form {
+                    .mb-3 {}
+                    textarea {}
+                    input {}
+                    button {}
+                    label {}
+                }
+            }
+            .blog-sidebar {
+                .single-blog-widget {
+                    .single-tag {
+                        a {
+                            &:hover {}
+                        }
+                    }
+                    h3 {}
+                    .blog-search {
+                        .input-group {
+                            input {}
+                            button {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    ul {
+                        li {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    .single-blog-banner {
+                        .overlay {}
+                        a {
+                            img {}
+                        }
+                        h2 {}
+                    }
+                    .single-post {
+                        h3 {}
+                        .card {
+                            img {}
+                            .card-body {
+                                padding: 10px 20px;
+                                h4 {
+                                    a {
+                                        &:hover {}
+                                    }
+                                }
+                                p {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #courses-details {
+        .container {
+            .left {}
+            .courses-media {
+                img {}
+            }
+            .courses-content {
+                h2 {}
+                p {}
+            }
+            .details-left {
+                .single-details {
+                    h3 {}
+                    p {}
+                }
+            }
+            .details-right {
+                padding: 45px 17px 45px;
+                margin: 0px 11px;
+                h3 {}
+                ul {
+                    li {
+                        &:last-child {}
+                        span {}
+                    }
+                }
+                .fee {}
+            }
+            .reply-area {
+                textarea {}
+                h3 {}
+                p {}
+                form {
+                    .mb-3 {}
+                    textarea {}
+                    input {}
+                    button {}
+                    label {}
+                }
+            }
+            .blog-sidebar {
+                margin-left: 33px;
+                .single-blog-widget {
+                    .single-tag {
+                        a {
+                            font-size: 12px;
+                            &:hover {}
+                        }
+                    }
+                    h3 {}
+                    .blog-search {
+                        .input-group {
+                            input {}
+                            button {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    ul {
+                        li {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    .single-blog-banner {
+                        .overlay {}
+                        a {
+                            img {}
+                        }
+                        h2 {}
+                    }
+                    .single-post {
+                        h3 {}
+                        .card {
+                            img {}
+                            .card-body {
+                                padding: 10px 20px;
+                                h4 {
+                                    a {
+                                        &:hover {}
+                                    }
+                                }
+                                p {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #courses-details {
+        .container {
+            .left {}
+            .courses-media {
+                img {}
+            }
+            .courses-content {
+                h2 {}
+                p {}
+            }
+            .details-left {
+                .single-details {
+                    h3 {}
+                    p {}
+                }
+            }
+            .details-right {
+                margin: unset;
+                h3 {}
+                ul {
+                    li {
+                        &:last-child {}
+                        span {}
+                    }
+                }
+                .fee {}
+            }
+            .reply-area {
+                textarea {}
+                h3 {}
+                p {}
+                form {
+                    .mb-3 {}
+                    textarea {}
+                    input {}
+                    button {}
+                    label {}
+                }
+            }
+            .blog-sidebar {
+                margin-left: unset;
+                margin-top: 41px;
+                .single-blog-widget {
+                    .single-tag {
+                        a {
+                            font-size: 14px;
+                            margin-bottom: 38px;
+                            &:hover {}
+                        }
+                    }
+                    h3 {}
+                    .blog-search {
+                        .input-group {
+                            width: unset;
+                            input {}
+                            button {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    ul {
+                        li {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    .single-blog-banner {
+                        width: 306px;
+                        .overlay {}
+                        a {
+                            img {}
+                        }
+                        h2 {}
+                    }
+                    .single-post {
+                        h3 {}
+                        .card {
+                            img {}
+                            .card-body {
+                                h4 {
+                                    a {
+                                        &:hover {}
+                                    }
+                                }
+                                p {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #courses-details {
+        .container {
+            .left {}
+            .courses-media {
+                img {}
+            }
+            .courses-content {
+                h2 {}
+                p {}
+            }
+            .details-left {
+                .single-details {
+                    h3 {}
+                    p {}
+                }
+            }
+            .details-right {
+                h3 {}
+                ul {
+                    li {
+                        &:last-child {}
+                        span {}
+                    }
+                }
+                .fee {}
+            }
+            .reply-area {
+                textarea {}
+                h3 {}
+                p {}
+                form {
+                    .mb-3 {}
+                    textarea {}
+                    input {}
+                    button {}
+                    label {}
+                }
+            }
+            .blog-sidebar {
+                .single-blog-widget {
+                    .single-tag {
+                        a {
+                            font-size: 12px;
+                            margin-bottom: 38px;
+                            &:hover {}
+                        }
+                    }
+                    h3 {}
+                    .blog-search {
+                        .input-group {
+                            input {}
+                            button {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    ul {
+                        li {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    .single-blog-banner {
+                        width: 100%;
+                        .overlay {}
+                        a {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        h2 {}
+                    }
+                    .single-post {
+                        h3 {}
+                        .card {
+                            img {}
+                            .card-body {
+                                h4 {
+                                    a {
+                                        &:hover {}
+                                    }
+                                }
+                                p {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #courses-details {
+        .container {
+            .left {}
+            .courses-media {
+                img {}
+            }
+            .courses-content {
+                h2 {}
+                p {}
+            }
+            .details-left {
+                .single-details {
+                    h3 {}
+                    p {}
+                }
+            }
+            .details-right {
+                h3 {}
+                ul {
+                    li {
+                        &:last-child {}
+                        span {}
+                    }
+                }
+                .fee {}
+            }
+            .reply-area {
+                textarea {}
+                h3 {}
+                p {}
+                form {
+                    .mb-3 {}
+                    textarea {}
+                    input {}
+                    button {}
+                    label {}
+                }
+            }
+            .blog-sidebar {
+                .single-blog-widget {
+                    h3 {}
+                    .blog-search {
+                        .input-group {
+                            input {}
+                            button {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    ul {
+                        li {
+                            a {
+                                &:hover {}
+                            }
+                        }
+                    }
+                    .single-blog-banner {
+                        width: 100%;
+                        .overlay {}
+                        a {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        h2 {}
+                    }
+                    .single-post {
+                        h3 {}
+                        .card {
+                            img {}
+                            .card-body {
+                                h4 {
+                                    a {
+                                        &:hover {}
+                                    }
+                                }
+                                p {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

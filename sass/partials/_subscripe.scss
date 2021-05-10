@@ -1,0 +1,124 @@
+#subscribe {
+    background: #FAFAFA;
+    padding: 70px 0px;
+    .container {
+        .row {
+            .subscribe-content {
+                text-align: center;
+                h2 {
+                    font-size: 34px;
+                    color: $secondary-color;
+                    font-weight: 700;
+                    font-family: $font-family;
+                    margin-bottom: 62px;
+                    text-transform: uppercase;
+                    margin-bottom: 15px;
+                }
+                p {
+                    color: $text-color;
+                    font-family: $font-family;
+                    margin-bottom: 25px;
+                }
+            }
+            .subscripe-input {
+                input {
+                    border-radius: unset;
+                    background: #FAFAFA;
+                }
+                button {
+                    padding: 11px 40px;
+                    border-radius: unset;
+                    background: $primary-color;
+                    color: #fff;
+                    font-family: $font-family;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    transition: all 0.3s linear;
+                    &:hover {
+                        background-color: $secondary-color;
+                    }
+                    span {}
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #subscribe {
+        .container {
+            .row {
+                .subscribe-content {
+                    h2 {}
+                    p {}
+                }
+                .subscripe-input {
+                    input {}
+                    button {
+                        span {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #subscribe {
+        .offset-2 {
+            margin-left: unset;
+        }
+        .container {
+            .row {
+                .subscribe-content {
+                    h2 {}
+                    p {}
+                }
+                .subscripe-input {
+                    input {}
+                    button {
+                        span {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #subscribe {
+        .container {
+            .row {
+                .subscribe-content {
+                    h2 {}
+                    p {}
+                }
+                .subscripe-input {
+                    input {}
+                    button {
+                        span {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #subscribe {
+        .container {
+            .row {
+                .subscribe-content {
+                    h2 {}
+                    p {}
+                }
+                .subscripe-input {
+                    input {}
+                    button {
+                        span {}
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+#Professional {
+    padding-top: 150px;
+    .container {
+        .row {
+            .item {
+                .card {
+                    width: 100% !important;
+                    height: 100%;
+                    .card-body {
+                        padding: 40px;
+                        h5 {
+                            font-size: 20px;
+                            color: $third-color;
+                            font-weight: 700;
+                            font-family: $font-family;
+                            margin-bottom: 12px;
+                        }
+                        p {
+                            font-size: 14px;
+                            color: $text-color;
+                            font-family: $font-family;
+                            margin-bottom: 0px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #Professional {
+        .container {
+            .row {
+                .item {
+                    .card {
+                        .card-body {
+                            h5 {
+                                font-size: 16px;
+                            }
+                            p {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #Professional {
+        .container {
+            .row {
+                .item {
+                    .card {
+                        .card-body {
+                            padding: 20px;
+                            h5 {
+                                font-size: 14px;
+                                margin-bottom: 5px;
+                            }
+                            p {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #Professional {
+        .container {
+            .row {
+                .item {
+                    margin-bottom: 18px;
+                    .card {
+                        .card-body {
+                            h5 {}
+                            p {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #Professional {
+        .container {
+            .row {
+                .item {
+                    .card {
+                        .card-body {
+                            h5 {}
+                            p {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
